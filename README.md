@@ -7,7 +7,7 @@
 ### 
 
 - Better Logging
-- Fetch Popular Github repos
+- Fetch Data from Api
 
 ### Technologies Used
 
