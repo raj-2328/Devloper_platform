@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import './register.css';
 
 import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';

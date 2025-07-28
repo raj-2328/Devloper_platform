@@ -11,10 +11,22 @@ const ProfileItem = ({
   },
 }) => {
   return (
+
+    
+<>
+
+    {/* <div className='search-profile'> 
+       
+
+    </div> */}
+
+
     <div className='profile bg-light'>
+
+         
       <img
         src={avatar}
-        alt='Github DP instead of Gravatar'
+        alt='Github DP instead of'
         className='round-img'
       />
 
@@ -40,6 +52,9 @@ const ProfileItem = ({
         ))}
       </ul>
     </div>
+
+    </>
+
   );
 };
 

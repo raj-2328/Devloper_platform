@@ -5,6 +5,7 @@ const db = config.get('mongoURI');
 // Connection to MongoDB
 const connectDB = async () => {
   try {
+    mongoose.set('strictQuery', true);
     await mongoose.connect(db, {
       useNewUrlParser: true,
       useUnifiedTopology: true,

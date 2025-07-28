@@ -1,0 +1,31 @@
+.Profile-search {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width:px;
+  width: 100%;
+}
+
+.Profile-search label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.Profile-search input[type='search'] {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.Profile-search input[type='search']:focus {
+  border-color: #b88017;
+  box-shadow: 0 0 5px rgba(184, 128, 23, 0.4);
+}

@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { getPosts } from '../../actions/post';
 import PostItem from './PostItem';
 import PostForm from './PostForm';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Posts = ({ getPosts, post: { posts } }) => {
   useEffect(() => {
